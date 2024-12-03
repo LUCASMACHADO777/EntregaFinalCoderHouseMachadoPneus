@@ -1,0 +1,68 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+$primary-color: green;
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(6,68,154,1) 62%, rgba(7,80,174,1) 93%);
+}
+header
+{
+    .img-thumbnail{
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+    }
+    .btn{
+        margin: 20px;
+        height: 50px;
+    }
+}
+h1{
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+}
+main{
+    
+    p{
+        margin: 20px;
+        color: aliceblue;
+    }
+    .video_main {
+        display: flex;                /* Ativa o flexbox */
+        flex-direction: column;       /* Garante que os itens fiquem empilhados verticalmente */
+        align-items: center;          /* Centraliza os itens horizontalmente */
+        justify-content: center;      /* Centraliza os itens verticalmente */
+        text-align: center;           /* Alinha o texto no centro */
+        h2{
+            color: black;
+        }
+    }
+    
+}
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(40,114,216,1) 83%, rgba(7,80,174,1) 93%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    .contato{
+        margin: 15px;
+        color: black;
+    }
+}
+.catalogo-pneus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .card-text{
+        color: black;
+    }
+}
+
+
